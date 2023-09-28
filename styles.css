@@ -16,7 +16,7 @@
     list-style: none;
   }
   a {
-    color: #000;
+    color: #160d0d;
     text-decoration: none;
   }
   .container {
@@ -64,12 +64,15 @@
   padding: 5px;
 }
 
-#Our_Products {
+#Our_clients{
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
-
+#Our_clients > iframe {
+  max-width: 560px;
+  width: 100%;
+}
 
 #features .icon {
   display: flex;
@@ -77,9 +80,9 @@
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;}
+  color: rgb(219, 194, 146);}
 
-  #productos {
+  #Our_products {
     margin-top: 60px;
     display: flex;
     flex-direction: row;
@@ -95,6 +98,11 @@
   border: 1px solid #000;
   border-radius: 3px;
  }
+
+
+/* Inicio Responsive */
+
+
 
 @media (max-width: 600px) {
   header {
@@ -185,16 +193,17 @@ nav > ul {
 }
 
 #hero input[type='submit'] {
+  text-align: center;
   max-width: 150px;
   width: 100%;
   height: 30px;
-  margin: 15px 0;
+  margin: 20px;
   border: 0;
-  background-color: #f1c40f;
+  background-color: #ada8b1b7;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: rgb(0, 255, 106);
   transition: background-color 1s;
 }
 
@@ -247,13 +256,13 @@ nav > ul {
   }
 }
 
-#how-it-works {
+#Our_clients {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-#how-it-works > iframe {
+#Our_clients > iframe {
   max-width: 560px;
   width: 100%;
 }
